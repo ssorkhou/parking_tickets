@@ -4,8 +4,10 @@ In this project we analyze Toronto parking tickets issued from 2018 to 2020. The
 
 This repository contains the following files:
 - An_Analysis_of_Toronto_Parking_Tickets.ipynb
-    - This is the Jupyter notebook containing the bulk of the project and is where we walk through our exploration of the data. We start by downloading the data from the Open Data Portal and then cleaning it up before beginning our analysis. We investigate and visually depict several interesting trends in the data, finishing with a few heatmaps depicting the distribution of parking tickets throughout Toronto.
+    - This is the Jupyter notebook containing the bulk of the project and is where we walk through our exploration of the data. We start by downloading the data from the Open Data Portal and then cleaning it up before beginning our analysis. We investigate and visually depict several interesting trends in the data, finishing with a few heatmaps depicting the distribution of parking tickets throughout Toronto. You can either view the static Jupyter notebook in the repository or the interactive version via the Binder link above. **Note that the static notebook in GitHub is unable to display Folium maps since they require interactivity**.
 - parking-ticket-data-readme.xls
     - This is the readme file as provided by the Open Data Portal.
+- parking_tickets_soup.pickle
+    - Pickle file containing a BeautifulSoup instance of the parking tickets webpage.
 - post_geocode.csv
     - The data provided by the City of Toronto records the location of a parking ticket by stating either the address of the building closest to the infraction or the intersection closest to the vehicle. While useful in their own right, latitudinal and longitudinal coordinates would be more beneficial if we wish to overlay the data on a map of Toronto. For this we used QGIS and OpenStreetMap to geocode the addresses. The data returned by QGIS is found in post_geocode.csv.
