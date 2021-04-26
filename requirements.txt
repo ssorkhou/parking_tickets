@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+bs4
+requests
+selenium
+chromedriver_binary
+folium
+sklearn
+IPython
