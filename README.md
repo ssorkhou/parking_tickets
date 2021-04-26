@@ -1,2 +1,3 @@
-# parking_tickets
-An analysis of parking tickets issued in Toronto from 2018 to 2020
+# Toronto Parking Tickets
+In this project we analyze Toronto parking tickets issued from 2018 to 2020. The data was obtained via the City of Toronto's [Open Data Portal](https://open.toronto.ca/) and the precise source of the data is [here](https://open.toronto.ca/dataset/parking-tickets/). With millions of parking tickets to analyze, we learned quite a bit about parking tickets in Toronto, such as the most ticketed locations, ticketing trends throughout the year, and the effects of COVID-19 on parking tickets. This repository contains the following files:
+- An_Analysis_of_Toronto_Parking_Tickets.ipynb
